@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  color: #252525;
+  line-height: 28pt;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+}
+
+a:link {
+  color: #fe3426;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #d90f01;
+}
+
+#header {
+  background-color: #70d7ba;
+  height: 220px;
+  width: 100%;
+  display: table;
+}
+
+#title {
+  width: auto;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#content {
+  margin: auto;
+  width: 800px;
+}
+
+#nav {
+  text-align: center;
+  margin: 0.8em;
+}
+
+#nav li {
+  display: inline;
+  padding: 0.8em;
+  font-style: italic;
+}
+
+#footer {
+  height: 50px;
+  background-color: #464646;
+}
+
+.vertical_block {
+  margin-bottom: 4em;
+}
+
+.left {
+  float: left;
+  width: 60%;
+}
+
+h1, h2, h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  /*Header: Mission Gothic - Regular, 30 pt*/
+  color: white;
+  font-size: 30pt;
+  display: inline;
+  border: 2px solid white;
+  font-weight: 700;
+  padding: 0.6em;
+}
+
+h2 {
+  font-size: 22pt;
+  border-top: 1px solid #d3d3d3;
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+h3 {
+  text-align:left;
+  font-size: 14pt;
+  color: #a9a9a9;
+}
