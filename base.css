@@ -35,7 +35,7 @@ a:visited {
 
 #content {
   margin: auto;
-  width: 800px;
+  width: 700px;
 }
 
 #nav {
@@ -89,4 +89,12 @@ h3 {
   text-align:left;
   font-size: 14pt;
   color: #a9a9a9;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+ul {
+  padding-left: 3em;
 }
